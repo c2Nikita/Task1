@@ -1,0 +1,65 @@
+package org.example.service.impl;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.example.entity.CustomArray;
+import org.example.exception.ArrayException;
+import org.example.service.ArrayCalculator;
+
+public class ArrayCalculatorService implements ArrayCalculator {
+    public static final Logger logger = LogManager.getLogger(ArrayCalculatorService.class);
+    @Override
+    public int calculateSum(CustomArray customArray) throws ArrayException {
+        if(customArray == null){
+            throw new ArrayException("empty array");
+        } else {
+            int result = 0;
+            for (int num : customArray.getArray()) {
+                result += num;
+            }
+            logger.info("Sum of elements: "+result);
+            return result;
+        }
+    }
+    @Override
+    public float calculateAverage(CustomArray customArray) throws ArrayException {
+        if(customArray == null){
+            throw new ArrayException("empty array");
+        } else {
+            float result = (float) calculateSum(customArray) / customArray.getLenght();
+            logger.info("Average value: "+result);
+            return result;
+        }
+
+    }
+    @Override
+    public int calculatePositiveElements(CustomArray customArray) throws ArrayException {
+        if(customArray == null){
+            throw new ArrayException("empty array");
+        } else {
+            int result = 0;
+            for (int num : customArray.getArray()) {
+                if (num > 0) {
+                    result++;
+                }
+            }
+            logger.info("Positive elements: "+result);
+            return result;
+        }
+    }
+    @Override
+    public int calculateNegativeElements(CustomArray customArray) throws ArrayException {
+        if(customArray == null){
+            throw new ArrayException("empty array");
+        } else {
+            int result = 0;
+            for (int num : customArray.getArray()) {
+                if (num < 0) {
+                    result++;
+                }
+            }
+            logger.info("Negative elements: "+result);
+            return result;
+        }
+    }
+}

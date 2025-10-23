@@ -1,0 +1,10 @@
+[2025-10-23 22:56:18] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:15:23] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-23 23:15:23] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-23 23:15:23] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-23 23:15:23] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Negative elements: 2
