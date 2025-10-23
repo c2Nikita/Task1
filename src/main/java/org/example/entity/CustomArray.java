@@ -1,5 +1,7 @@
 package org.example.entity;
 
+import java.util.Arrays;
+
 public class CustomArray {
     private int[] array;
 
@@ -19,5 +21,18 @@ public class CustomArray {
     public int getElement(int index){
         return array[index];
     }
-    // realize toString method
+    @Override
+    public String toString(){
+        StringBuilder stringBuilder = new StringBuilder("Array data: [");
+        for(int i = 0; i < array.length; i++){
+            stringBuilder.append(array[i]);
+            if(i != array.length-1){
+                stringBuilder.append(", ");
+            }
+
+        }
+        stringBuilder.append("]");
+        return stringBuilder.toString();
+    }
+
 }

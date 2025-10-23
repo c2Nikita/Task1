@@ -8,3 +8,99 @@
 [2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Sum of elements: 59
 [2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Positive elements: 8
 [2025-10-23 23:15:23] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-23 23:46:55] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-23 23:46:55] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-23 23:46:55] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-23 23:46:55] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-23 23:46:55] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:46:55] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:46:55] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:46:55] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-23 23:46:55] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-23 23:46:55] [INFO ] ArrayManipulatorService - Replace element 7 on 25
+[2025-10-23 23:46:55] [INFO ] ArrayManipulatorService - Replace element 7 on 25
+[2025-10-23 23:46:55] [INFO ] ArrayManipulatorService - Replace element 7 on 25
+[2025-10-23 23:48:06] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-23 23:48:06] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-23 23:48:06] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-23 23:48:06] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-23 23:48:06] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:48:06] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:48:06] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:48:06] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-23 23:48:06] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-23 23:48:06] [INFO ] ArrayManipulatorService - Replace element 7 (index3) on 25
+[2025-10-23 23:48:06] [INFO ] ArrayManipulatorService - Replace element 7 (index6) on 25
+[2025-10-23 23:48:06] [INFO ] ArrayManipulatorService - Replace element 7 (index7) on 25
+[2025-10-23 23:48:20] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-23 23:48:20] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-23 23:48:20] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-23 23:48:20] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-23 23:48:20] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:48:20] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:48:20] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:48:20] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-23 23:48:20] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-23 23:48:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-23 23:48:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-23 23:48:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-23 23:59:57] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-23 23:59:57] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-23 23:59:57] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-23 23:59:57] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-23 23:59:57] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:59:57] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-23 23:59:57] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-23 23:59:57] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-23 23:59:57] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-23 23:59:57] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-23 23:59:57] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-23 23:59:57] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 00:00:07] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 00:00:07] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 00:00:07] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-24 00:00:07] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-24 00:00:07] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:00:07] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 00:00:07] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:00:07] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 00:00:07] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 00:00:07] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 00:00:07] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 00:00:07] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 00:06:58] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 00:06:58] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 00:06:58] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-24 00:06:58] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-24 00:06:58] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:06:58] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 00:06:58] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:06:58] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 00:06:58] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 00:06:58] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 00:06:58] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 00:06:58] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 00:20:54] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 00:20:54] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 00:20:54] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-24 00:20:54] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-24 00:20:54] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:20:54] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 00:20:54] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:20:54] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 00:20:54] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 00:20:54] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 00:20:54] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 00:20:54] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 00:34:50] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 00:34:50] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 00:34:50] [INFO ] ArrayFindService - First index of  7 is 3
+[2025-10-24 00:34:50] [INFO ] ArrayFindService - Last index of  7 is 7
+[2025-10-24 00:34:50] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:34:50] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 00:34:50] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 00:34:50] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 00:34:50] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
