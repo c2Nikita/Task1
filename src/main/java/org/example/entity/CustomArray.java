@@ -14,6 +14,10 @@ public class CustomArray {
         return array.clone();
     }
 
+    public void setArray(int[] array){
+        this.array = array.clone();
+    }
+
     public int getLenght() {
         return array.length;
     }

@@ -104,3 +104,80 @@
 [2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
 [2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
 [2025-10-24 00:34:50] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:08:27] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:08:27] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:08:27] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:08:27] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:08:27] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:08:27] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:08:27] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:08:27] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:08:27] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:08:27] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:08:27] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:08:27] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:08:27] [INFO ] ArraySorterService - Array sorted using InsertionSort
+[2025-10-24 04:12:29] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:12:29] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:12:29] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:12:29] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:12:29] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:12:29] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:12:29] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:12:29] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:12:29] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:12:29] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:12:29] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:12:29] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:12:29] [INFO ] ArraySorterService - Array sorted using InsertionSort
+[2025-10-24 04:15:20] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:15:20] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:15:20] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:15:20] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:15:20] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:15:20] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:15:20] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:15:20] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:15:20] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:15:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:15:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:15:20] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:15:20] [INFO ] ArraySorterService - Array sorted using SelectionSort
+[2025-10-24 04:18:26] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:18:26] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:18:26] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:18:26] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:18:26] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:18:26] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:18:26] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:18:26] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:18:26] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:18:26] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:18:26] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:18:26] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:18:26] [INFO ] ArraySorterService - Array sorted using SelectionSort
+[2025-10-24 04:18:36] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:18:36] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:18:36] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:18:36] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:18:36] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:18:36] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:18:36] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:18:36] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:18:36] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:18:36] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:18:36] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:18:36] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:19:15] [INFO ] ArrayFindService - Min element in array is -10
+[2025-10-24 04:19:15] [INFO ] ArrayFindService - Max element in array is 22
+[2025-10-24 04:19:15] [INFO ] ArrayFindService - First index of 7 is 3
+[2025-10-24 04:19:15] [INFO ] ArrayFindService - Last index of 7 is 7
+[2025-10-24 04:19:15] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:19:15] [INFO ] ArrayCalculatorService - Average value: 5.9
+[2025-10-24 04:19:15] [INFO ] ArrayCalculatorService - Sum of elements: 59
+[2025-10-24 04:19:15] [INFO ] ArrayCalculatorService - Positive elements: 8
+[2025-10-24 04:19:15] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-24 04:19:15] [INFO ] ArrayManipulatorService - Replace element 7 (index 3) on 25
+[2025-10-24 04:19:15] [INFO ] ArrayManipulatorService - Replace element 7 (index 6) on 25
+[2025-10-24 04:19:15] [INFO ] ArrayManipulatorService - Replace element 7 (index 7) on 25
+[2025-10-24 04:19:15] [INFO ] ArraySorterService - Array sorted using QuickSort

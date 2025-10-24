@@ -1,20 +1,23 @@
 package org.example;
 
+import org.example.Builder.impl.CustomArrayBuilder;
 import org.example.entity.CustomArray;
 import org.example.exception.ArrayException;
-import org.example.service.ArrayCalculator;
 import org.example.service.impl.ArrayCalculatorService;
 import org.example.service.impl.ArrayFindService;
 import org.example.service.impl.ArrayManipulatorService;
+import org.example.service.impl.ArraySorterService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws ArrayException {
+
         CustomArray customArray = new CustomArrayBuilder().setLenght(10).build();
         ArrayFindService arrayFindService = new ArrayFindService();
         ArrayCalculatorService arrayCalculatorService = new ArrayCalculatorService();
         ArrayManipulatorService arrayManipulatorService = new ArrayManipulatorService();
+        ArraySorterService arraySorterService = new ArraySorterService();
 
         customArray.setElement(0, 22);
         customArray.setElement(1, -2);
@@ -41,6 +44,10 @@ public class Main {
         arrayCalculatorService.calculateNegativeElements(customArray);
         System.out.println(customArray);
         arrayManipulatorService.replaceByCondition(customArray,num -> num == 7, 25);
+        System.out.println(customArray);
+
+
+        arraySorterService.quickSort(customArray);
         System.out.println(customArray);
 
 

@@ -1,5 +1,6 @@
-package org.example;
+package org.example.Builder.impl;
 
+import org.example.Builder.Builder;
 import org.example.entity.CustomArray;
 
 public class CustomArrayBuilder implements Builder {
