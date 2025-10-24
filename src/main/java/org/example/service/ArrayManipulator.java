@@ -6,5 +6,6 @@ import org.example.exception.ArrayException;
 import java.util.function.IntPredicate;
 
 public interface ArrayManipulator {
-    public void replaceByCondition(CustomArray customArray, IntPredicate condition, int newValue) throws ArrayException;
+
+    void replaceByCondition(CustomArray customArray, IntPredicate condition, int newValue) throws ArrayException;
 }
