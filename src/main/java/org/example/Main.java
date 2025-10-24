@@ -3,40 +3,26 @@ package org.example;
 import org.example.Builder.impl.CustomArrayBuilder;
 import org.example.entity.CustomArray;
 import org.example.exception.ArrayException;
-import org.example.service.impl.ArrayCalculatorService;
-import org.example.service.impl.ArrayFindService;
-import org.example.service.impl.ArrayManipulatorService;
-import org.example.service.impl.ArraySorterService;
+import org.example.exception.FileReaderException;
+import org.example.service.LineValidator;
+import org.example.service.impl.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) throws ArrayException {
-
-        CustomArray customArray = new CustomArrayBuilder().setLenght(10).build();
+    public static void main(String[] args) throws ArrayException, FileReaderException {
+        LineValidatorService lineValidatorService = new LineValidatorService();
+        FileArrayReaderService fileArrayReaderService = new FileArrayReaderService(lineValidatorService);
+        int[] array = fileArrayReaderService.readFile("data/file.txt");
+        CustomArray customArray = new CustomArrayBuilder().setArray(array).build();
         ArrayFindService arrayFindService = new ArrayFindService();
         ArrayCalculatorService arrayCalculatorService = new ArrayCalculatorService();
         ArrayManipulatorService arrayManipulatorService = new ArrayManipulatorService();
         ArraySorterService arraySorterService = new ArraySorterService();
 
-        customArray.setElement(0, 22);
-        customArray.setElement(1, -2);
-        customArray.setElement(2, 4);
-        customArray.setElement(3, 7);
-        customArray.setElement(4, -10);
-        customArray.setElement(5, 2);
-        customArray.setElement(6, 7);
-        customArray.setElement(7, 7);
-        customArray.setElement(8, 10);
-        customArray.setElement(9, 12);
-
-
-
         arrayFindService.findMin(customArray);
         arrayFindService.findMax(customArray);
 
-        arrayFindService.findFirstIndexOf(customArray,7);
-        arrayFindService.findLastIndexOf(customArray,7);
 
         arrayCalculatorService.calculateAverage(customArray);
         arrayCalculatorService.calculateSum(customArray);

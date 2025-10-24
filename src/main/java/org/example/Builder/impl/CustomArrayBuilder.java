@@ -5,15 +5,15 @@ import org.example.entity.CustomArray;
 
 public class CustomArrayBuilder implements Builder {
 
-    private int lenght;
+    private int[] array;
 
     @Override
-    public CustomArrayBuilder setLenght(int lenght) {
-        this.lenght = lenght;
+    public CustomArrayBuilder setArray(int[] array) {
+        this.array = array;
         return this;
     }
 
     public CustomArray build() {
-        return new CustomArray(lenght);
+        return new CustomArray(array);
     }
 }

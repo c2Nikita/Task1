@@ -4,5 +4,5 @@ import org.example.Builder.impl.CustomArrayBuilder;
 
 public interface Builder {
 
-    CustomArrayBuilder setLenght(int lenght);
+    CustomArrayBuilder setArray(int[] array);
 }

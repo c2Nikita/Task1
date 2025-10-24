@@ -10,6 +10,10 @@ public class CustomArray {
         array = new int[lenght];
     }
 
+    public CustomArray(int[] array) {
+        this.array = array;
+    }
+
     public int[] getArray() {
         return array.clone();
     }
