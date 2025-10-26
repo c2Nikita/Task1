@@ -1,10 +1,10 @@
-package org.example.service.impl;
+package org.example.task.service.impl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.example.entity.CustomArray;
-import org.example.exception.ArrayException;
-import org.example.service.ArrayManipulator;
+import org.example.task.entity.CustomArray;
+import org.example.task.exception.ArrayException;
+import org.example.task.service.ArrayManipulator;
 
 import java.util.function.IntPredicate;
 

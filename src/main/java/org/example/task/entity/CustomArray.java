@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.task.entity;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class CustomArray {
     }
 
     public CustomArray(int[] array) {
-        this.array = array;
+        this.array = array.clone();
     }
 
     public int[] getArray() {

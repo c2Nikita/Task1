@@ -1,11 +1,16 @@
-package org.example;
+package org.example.task;
 
-import org.example.Builder.impl.CustomArrayBuilder;
-import org.example.entity.CustomArray;
-import org.example.exception.ArrayException;
-import org.example.exception.FileReaderException;
-import org.example.service.LineValidator;
+import org.example.task.builder.impl.CustomArrayBuilder;
+import org.example.task.entity.CustomArray;
+import org.example.task.exception.ArrayException;
+import org.example.task.exception.FileReaderException;
+import org.example.task.reader.impl.FileArrayReaderService;
 import org.example.service.impl.*;
+import org.example.task.service.impl.ArrayCalculatorService;
+import org.example.task.service.impl.ArrayFindService;
+import org.example.task.service.impl.ArrayManipulatorService;
+import org.example.task.service.impl.ArraySorterService;
+import org.example.task.validator.impl.LineValidatorService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

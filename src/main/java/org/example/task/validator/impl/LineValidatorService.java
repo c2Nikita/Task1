@@ -1,8 +1,8 @@
-package org.example.service.impl;
+package org.example.task.validator.impl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.example.service.LineValidator;
+import org.example.task.validator.LineValidator;
 
 import java.util.regex.Pattern;
 

@@ -1,4 +1,4 @@
-package org.example.exception;
+package org.example.task.exception;
 
 public class ArrayException extends Exception {
 

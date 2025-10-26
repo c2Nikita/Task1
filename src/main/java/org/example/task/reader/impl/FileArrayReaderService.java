@@ -1,14 +1,13 @@
-package org.example.service.impl;
+package org.example.task.reader.impl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.example.exception.FileReaderException;
-import org.example.service.FileArrayReader;
-import org.example.service.LineValidator;
+import org.example.task.exception.FileReaderException;
+import org.example.task.reader.FileArrayReader;
+import org.example.task.validator.LineValidator;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;

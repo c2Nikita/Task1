@@ -1,7 +1,7 @@
-package org.example.service;
+package org.example.task.service;
 
-import org.example.entity.CustomArray;
-import org.example.exception.ArrayException;
+import org.example.task.entity.CustomArray;
+import org.example.task.exception.ArrayException;
 
 import java.util.function.IntPredicate;
 
