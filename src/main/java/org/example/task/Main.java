@@ -1,6 +1,5 @@
 package org.example.task;
 
-import org.example.task.builder.impl.CustomArrayBuilder;
 import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
 import org.example.task.exception.FileReaderException;
