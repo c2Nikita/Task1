@@ -16,7 +16,7 @@ import java.util.List;
 public class FileArrayReaderService implements FileArrayReader {
 
     private final LineValidator lineValidator;
-    public static final Logger logger = LogManager.getLogger(FileArrayReaderService.class);
+    public static final Logger logger = LogManager.getLogger();
     public static final String REGEX = "[,;\\s]+";
 
     public FileArrayReaderService(LineValidator lineValidator) {
@@ -37,7 +37,7 @@ public class FileArrayReaderService implements FileArrayReader {
             List<String> lines = Files.readAllLines(filePath);
 
             for (String line : lines) {
-                if (lineValidator.isValid(line)) {
+                if (lineValidator.isLineFromFileValid(line)) {
                     String[] tokens = line.trim().split(REGEX);
 
                     for (String token : tokens) {
@@ -55,9 +55,9 @@ public class FileArrayReaderService implements FileArrayReader {
             return numbers.stream().mapToInt(Integer::intValue).toArray();
 
         } catch (IOException e) {
-            throw new FileReaderException(e);
+            throw new FileReaderException(e,"IO problem");
         } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
+            throw new FileReaderException(e,"Uri problem");
         }
     }
 }

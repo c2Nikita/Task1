@@ -5,7 +5,7 @@ import org.example.task.exception.ArrayException;
 
 public interface ArrayCalculator {
 
-    float calculateAverage(CustomArray customArray) throws ArrayException;
+    double calculateAverage(CustomArray customArray) throws ArrayException;
 
     int calculateSum(CustomArray customArray) throws ArrayException;
 

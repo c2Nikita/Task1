@@ -282,3 +282,347 @@
 [2025-10-24 18:39:44] [INFO ] ArrayCalculatorService - Positive elements: 5
 [2025-10-24 18:39:44] [INFO ] ArrayCalculatorService - Negative elements: 2
 [2025-10-24 18:39:44] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:37:41] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:37:41] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:37:41] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:37:41] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:37:41] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:37:41] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:37:41] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:37:41] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:37:41] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:37:41] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:37:41] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:37:41] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:37:41] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:37:41] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:37:41] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:37:41] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:37:41] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:37:41] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:39:24] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:24] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:39:24] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:39:24] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:39:24] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:39:24] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:39:24] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:24] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:39:24] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:24] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:39:24] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:39:24] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:39:24] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:39:24] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:39:24] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:39:24] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:39:24] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:39:24] [INFO ] ArrayManipulatorService - Replace element 2 (index 1) on 25
+[2025-10-27 00:39:24] [INFO ] ArrayManipulatorService - Replace element 2 (index 4) on 25
+[2025-10-27 00:39:24] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:39:37] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:37] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:39:37] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:39:37] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:39:37] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:39:37] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:39:37] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:37] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:39:37] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:39:37] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:39:37] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:39:37] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:39:37] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:39:37] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:39:37] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:39:37] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:39:37] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:39:37] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:39:37] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:39:37] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:40:35] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:40:35] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:40:35] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:40:35] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:40:35] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:40:35] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:40:35] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:40:35] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:40:35] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:40:35] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:40:35] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:40:35] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:40:35] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:40:35] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:40:35] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:40:35] [INFO ] ArrayCalculatorService - Positive elements: 0
+[2025-10-27 00:40:35] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:40:35] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:40:35] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:40:35] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:41:20] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:20] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:41:20] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:41:20] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:41:20] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:41:20] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:41:20] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:20] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:41:20] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:20] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:41:20] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:41:20] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:41:20] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:41:20] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:41:20] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:41:20] [INFO ] ArrayCalculatorService - Positive elements: 0
+[2025-10-27 00:41:20] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:41:20] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:41:20] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:41:20] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:41:33] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:33] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:41:33] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:41:33] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:41:33] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:41:33] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:41:33] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:33] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:41:33] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:33] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:41:33] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:41:33] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:41:33] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 00:41:33] [INFO ] ArrayCalculatorService - Average value: 0.0
+[2025-10-27 00:41:33] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:41:33] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:41:33] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:41:33] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:41:33] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:41:33] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:41:59] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:59] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:41:59] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:41:59] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:41:59] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:41:59] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:41:59] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:59] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:41:59] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:41:59] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:41:59] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:41:59] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:41:59] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:41:59] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:41:59] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 00:41:59] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:41:59] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:41:59] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:41:59] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:41:59] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:42:25] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:42:25] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:42:25] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:42:25] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:42:25] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:42:25] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:42:25] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:42:25] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:42:25] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:42:25] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:42:25] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:42:25] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:42:25] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:42:25] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:46:07] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:46:07] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:46:07] [INFO ] LineValidatorService - Line incorrect
+[2025-10-27 00:46:07] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:46:07] [INFO ] LineValidatorService - Line is empty
+[2025-10-27 00:46:07] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:46:07] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:46:07] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:46:07] [INFO ] LineValidatorService - Line correct
+[2025-10-27 00:46:07] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:46:07] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:46:07] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:46:07] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:46:07] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:50:40] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:50:40] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:50:40] [INFO ] LineValidatorService - This line false
+[2025-10-27 00:50:40] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:50:40] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 00:50:40] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:50:40] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:50:40] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:50:40] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:50:40] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:50:40] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:50:40] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:50:40] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:50:40] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:50:40] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:50:40] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:50:40] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:50:40] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:50:40] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:50:40] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:55:28] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:55:28] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:55:28] [INFO ] LineValidatorService - This line false
+[2025-10-27 00:55:28] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:55:28] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 00:55:28] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:55:28] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:55:28] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:55:28] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:55:28] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:55:28] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:55:28] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:55:28] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:55:28] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:55:28] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 00:55:28] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:55:28] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:55:28] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:55:28] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:55:28] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:56:18] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:18] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:56:18] [INFO ] LineValidatorService - This line false
+[2025-10-27 00:56:18] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:56:18] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 00:56:18] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:56:18] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:18] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:56:18] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:18] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:56:18] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:56:18] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:56:18] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:56:18] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:56:18] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:56:18] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 00:56:48] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:48] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 00:56:48] [INFO ] LineValidatorService - This line false
+[2025-10-27 00:56:48] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 00:56:48] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 00:56:48] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 00:56:48] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:48] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 00:56:48] [INFO ] LineValidatorService - This line true
+[2025-10-27 00:56:48] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 00:56:48] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 00:56:48] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 00:56:48] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 00:56:48] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 00:56:48] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 00:56:48] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 01:09:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:02] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 01:09:02] [INFO ] LineValidatorService - This line false
+[2025-10-27 01:09:02] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 01:09:02] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 01:09:02] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 01:09:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:02] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 01:09:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:02] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 01:09:02] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 01:09:02] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 01:09:09] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:09] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 01:09:09] [INFO ] LineValidatorService - This line false
+[2025-10-27 01:09:09] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 01:09:09] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 01:09:09] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 01:09:09] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:09] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 01:09:09] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:09:09] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 01:09:09] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 01:09:09] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorService - Average value: 0.2857143
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 01:09:09] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 01:09:09] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 01:09:09] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 01:09:09] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 01:11:35] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:11:35] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 01:11:35] [INFO ] LineValidatorService - This line false
+[2025-10-27 01:11:35] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 01:11:35] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 01:11:35] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 01:11:35] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:11:35] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 01:11:35] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:11:35] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 01:11:35] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 01:11:35] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorService - Average value: 0.0
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 01:11:35] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 01:11:35] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 01:11:35] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 01:11:35] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 01:12:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:12:02] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 01:12:02] [INFO ] LineValidatorService - This line false
+[2025-10-27 01:12:02] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 01:12:02] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 01:12:02] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 01:12:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:12:02] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 01:12:02] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:12:02] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 01:12:02] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 01:12:02] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorService - Average value: 0.2857142857142857
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 01:12:02] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 01:12:02] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 01:12:02] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 01:12:02] [INFO ] ArraySorterService - Array sorted using QuickSort
+[2025-10-27 01:15:52] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:15:52] [INFO ] FileArrayReaderService - Valid line processed: 1; 2; 3
+[2025-10-27 01:15:52] [INFO ] LineValidatorService - This line false
+[2025-10-27 01:15:52] [INFO ] FileArrayReaderService - Invalid line skipped: 1; 2; x3; 6..5; 77
+[2025-10-27 01:15:52] [WARN ] LineValidatorService - Line is empty
+[2025-10-27 01:15:52] [INFO ] FileArrayReaderService - Invalid line skipped: 
+[2025-10-27 01:15:52] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:15:52] [INFO ] FileArrayReaderService - Valid line processed: 11; 2
+[2025-10-27 01:15:52] [INFO ] LineValidatorService - This line true
+[2025-10-27 01:15:52] [INFO ] FileArrayReaderService - Valid line processed: -2; -15
+[2025-10-27 01:15:52] [INFO ] ArrayFindService - Min element in array is -15
+[2025-10-27 01:15:52] [INFO ] ArrayFindService - Max element in array is 11
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorServiceToStream - Average value: 0.0
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorService - Sum of elements: 2
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorService - Average value: 0.2857142857142857
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorService - Sum of elements: 0
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorService - Positive elements: 5
+[2025-10-27 01:15:52] [INFO ] ArrayCalculatorService - Negative elements: 2
+[2025-10-27 01:15:52] [INFO ] ArrayManipulatorService - Replace element 3 (index 2) on 25
+[2025-10-27 01:15:52] [INFO ] ArrayManipulatorService - Replace element 11 (index 3) on 25
+[2025-10-27 01:15:52] [INFO ] ArraySorterService - Array sorted using QuickSort

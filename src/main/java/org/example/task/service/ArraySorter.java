@@ -5,9 +5,9 @@ import org.example.task.exception.ArrayException;
 
 public interface ArraySorter {
 
-    public void quickSort(CustomArray customArray) throws ArrayException;
+    void quickSort(CustomArray customArray) throws ArrayException;
 
-    public void insertionSort(CustomArray customArray) throws ArrayException;
+    void insertionSort(CustomArray customArray) throws ArrayException;
 
-    public void selectionSort(CustomArray customArray) throws ArrayException;
+    void selectionSort(CustomArray customArray) throws ArrayException;
 }

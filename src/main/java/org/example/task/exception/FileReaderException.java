@@ -15,6 +15,6 @@ public class FileReaderException extends Exception {
     }
 
     public FileReaderException(Throwable reason,String message) {
-        super(reason);
+        super(message, reason);
     }
 }

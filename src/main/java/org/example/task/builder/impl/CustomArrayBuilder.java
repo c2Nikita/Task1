@@ -2,6 +2,7 @@ package org.example.task.builder.impl;
 
 import org.example.task.builder.Builder;
 import org.example.task.entity.CustomArray;
+import org.example.task.exception.ArrayException;
 
 public class CustomArrayBuilder implements Builder {
 
@@ -13,7 +14,7 @@ public class CustomArrayBuilder implements Builder {
         return this;
     }
 
-    public CustomArray build() {
+    public CustomArray build() throws ArrayException {
         return new CustomArray(array);
     }
 }

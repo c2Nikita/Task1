@@ -15,6 +15,6 @@ public class ArrayException extends Exception {
     }
 
     public ArrayException(Throwable reason, String message) {
-        super(reason);
+        super(message, reason);
     }
 }

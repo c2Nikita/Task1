@@ -8,24 +8,18 @@ import java.util.regex.Pattern;
 
 public class LineValidatorService implements LineValidator {
 
-    public static final Logger logger = LogManager.getLogger(LineValidatorService.class);
-    public static final String REGEX = "^\\s*(-?\\d+)(\\s*[,;\\-\\s]\\s*-?\\d+)*\\s*$";
+    public static final Logger logger = LogManager.getLogger();
+    public static final String REGEX_FILE_LINE = "-?\\d+(\\s*[,;-]\\s*-?\\d+)*";
 
-    public boolean isValid(String line){
-        if (line == null || line.trim().isEmpty()){
-            logger.info("Line is empty");
+    public boolean isLineFromFileValid(String lineFromFile){
+        if (lineFromFile == null || lineFromFile.isBlank()){
+            logger.warn("Line is empty");
             return false;
         }
 
-        Pattern pattern = Pattern.compile(REGEX);
-        boolean result = pattern.matcher(line).matches();
-
-        if(result){
-            logger.info("Line correct");
-        } else {
-            logger.info("Line incorrect");
-        }
-
+        Pattern pattern = Pattern.compile(REGEX_FILE_LINE);
+        boolean result = pattern.matcher(lineFromFile).matches();
+        logger.info("This line {}",result);
         return result;
     }
 }

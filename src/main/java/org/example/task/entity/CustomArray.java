@@ -1,16 +1,26 @@
 package org.example.task.entity;
 
+import org.example.task.exception.ArrayException;
+
 import java.util.Arrays;
 
 public class CustomArray {
 
     private int[] array;
 
-    public CustomArray(int lenght) {
+    public CustomArray(int lenght) throws ArrayException {
+        if (lenght <= 0) {
+            throw new ArrayException("Bad array lenght");
+        }
+
         array = new int[lenght];
     }
 
-    public CustomArray(int[] array) {
+    public CustomArray(int[] array) throws ArrayException {
+        if (array == null) {
+            throw new ArrayException("Bad array for create");
+        }
+
         this.array = array.clone();
     }
 
@@ -26,11 +36,19 @@ public class CustomArray {
         return array.length;
     }
 
-    public void setElement(int index, int value) {
+    public void setElement(int index, int value) throws ArrayException {
+        if (index >= array.length || index < 0) {
+            throw new ArrayException("array out of bounds");
+        }
+
         array[index] = value;
     }
 
-    public int getElement(int index) {
+    public int getElement(int index) throws ArrayException {
+        if (index >= array.length || index < 0) {
+            throw new ArrayException("array out of bounds");
+        }
+
         return array[index];
     }
 
@@ -47,3 +65,4 @@ public class CustomArray {
         return stringBuilder.toString();
     }
 }
+// todo hashcode and equals

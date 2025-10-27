@@ -5,11 +5,7 @@ import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
 import org.example.task.exception.FileReaderException;
 import org.example.task.reader.impl.FileArrayReaderService;
-import org.example.service.impl.*;
-import org.example.task.service.impl.ArrayCalculatorService;
-import org.example.task.service.impl.ArrayFindService;
-import org.example.task.service.impl.ArrayManipulatorService;
-import org.example.task.service.impl.ArraySorterService;
+import org.example.task.service.impl.*;
 import org.example.task.validator.impl.LineValidatorService;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -28,13 +24,18 @@ public class Main {
         arrayFindService.findMin(customArray);
         arrayFindService.findMax(customArray);
 
+        ArrayCalculatorServiceToStream arrayCalculatorServiceToStream = new ArrayCalculatorServiceToStream();
+        CustomArray customArray1 = new CustomArray(1);
+        arrayCalculatorServiceToStream.calculateAverage(customArray1);
+
+
 
         arrayCalculatorService.calculateAverage(customArray);
-        arrayCalculatorService.calculateSum(customArray);
+        arrayCalculatorService.calculateSum(customArray1);
         arrayCalculatorService.calculatePositiveElements(customArray);
         arrayCalculatorService.calculateNegativeElements(customArray);
         System.out.println(customArray);
-        arrayManipulatorService.replaceByCondition(customArray,num -> num == 7, 25);
+        arrayManipulatorService.replaceByCondition(customArray,num -> num > 2, 25);
         System.out.println(customArray);
 
 

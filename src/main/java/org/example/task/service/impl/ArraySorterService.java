@@ -8,7 +8,7 @@ import org.example.task.service.ArraySorter;
 
 public class ArraySorterService implements ArraySorter {
 
-    public static final Logger logger = LogManager.getLogger(ArraySorterService.class);
+    public static final Logger logger = LogManager.getLogger();
 
     public void quickSort(CustomArray customArray) throws ArrayException {
         if (customArray == null) {

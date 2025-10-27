@@ -8,62 +8,71 @@ import org.example.task.service.ArrayCalculator;
 
 public class ArrayCalculatorService implements ArrayCalculator {
 
-    public static final Logger logger = LogManager.getLogger(ArrayCalculatorService.class);
+    public static final Logger logger = LogManager.getLogger();
 
     @Override
     public int calculateSum(CustomArray customArray) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
-        } else {
-            int result = 0;
-            for (int num : customArray.getArray()) {
-                result += num;
-            }
-            logger.info("Sum of elements: " + result);
-            return result;
         }
+
+        int result = 0;
+
+        for (int num : customArray.getArray()) {
+            result += num;
+        }
+
+        logger.info("Sum of elements: " + result);
+        return result;
+
     }
 
     @Override
-    public float calculateAverage(CustomArray customArray) throws ArrayException {
+    public double calculateAverage(CustomArray customArray) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
-        } else {
-            float result = (float) calculateSum(customArray) / customArray.getLenght();
-            logger.info("Average value: " + result);
-            return result;
         }
+
+        double result = (double) calculateSum(customArray) / customArray.getLenght();
+        logger.info("Average value: " + result);
+        return result;
+
     }
 
     @Override
     public int calculatePositiveElements(CustomArray customArray) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
-        } else {
-            int result = 0;
-            for (int num : customArray.getArray()) {
-                if (num > 0) {
-                    result++;
-                }
-            }
-            logger.info("Positive elements: " + result);
-            return result;
         }
+
+        int result = 0;
+
+        for (int num : customArray.getArray()) {
+            if (num > 0) {
+                result++;
+            }
+        }
+
+        logger.info("Positive elements: " + result);
+        return result;
     }
 
     @Override
     public int calculateNegativeElements(CustomArray customArray) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
-        } else {
-            int result = 0;
-            for (int num : customArray.getArray()) {
-                if (num < 0) {
-                    result++;
-                }
-            }
-            logger.info("Negative elements: " + result);
-            return result;
         }
+
+        int result = 0;
+
+        for (int num : customArray.getArray()) {
+            if (num < 0) {
+                result++;
+            }
+        }
+
+        logger.info("Negative elements: " + result);
+        return result;
+
     }
 }

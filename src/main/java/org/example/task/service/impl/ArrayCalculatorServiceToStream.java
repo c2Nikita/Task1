@@ -10,16 +10,16 @@ import java.util.Arrays;
 
 public class ArrayCalculatorServiceToStream implements ArrayCalculator {
 
-    public static final Logger logger = LogManager.getLogger(ArrayCalculatorServiceToStream.class);
+    public static final Logger logger = LogManager.getLogger();
     @Override
-    public float calculateAverage(CustomArray customArray) throws ArrayException {
+    public double calculateAverage(CustomArray customArray) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
         }
 
-        float average = (float) Arrays.stream(customArray.getArray())
+        double average = Arrays.stream(customArray.getArray())
                 .average()
-                .orElse(0);
+                .orElseThrow(() -> new ArrayException("Array is empty"));
 
         logger.info("Average value: " + average);
         return average;
@@ -27,7 +27,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
 
     @Override
     public int calculateSum(CustomArray customArray) throws ArrayException {
-        if (customArray == null) {
+        if (customArray == null ) {
             throw new ArrayException("empty array");
         }
 
