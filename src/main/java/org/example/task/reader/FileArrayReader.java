@@ -2,7 +2,9 @@ package org.example.task.reader;
 
 import org.example.task.exception.FileReaderException;
 
+import java.util.List;
+
 public interface FileArrayReader {
-    int[] readFile(String path) throws FileReaderException;
-    //Add parser
+
+    List<String> readFile(String path) throws FileReaderException;
 }

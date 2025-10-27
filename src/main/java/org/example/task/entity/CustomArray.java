@@ -7,7 +7,11 @@ import java.util.Arrays;
 public class CustomArray {
 
     private int[] array;
+    private int id;
 
+    private CustomArray() {
+
+    }
     public CustomArray(int lenght) throws ArrayException {
         if (lenght <= 0) {
             throw new ArrayException("Bad array lenght");
@@ -22,6 +26,23 @@ public class CustomArray {
         }
 
         this.array = array.clone();
+    }
+
+    public CustomArray(int[] array,int id) throws ArrayException {
+        if (array == null || array.length == 0) {
+            throw new ArrayException("Bad array for create");
+        }
+
+        this.id = id;
+        this.array = array.clone();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int[] getArray() {
@@ -64,5 +85,62 @@ public class CustomArray {
         stringBuilder.append("]");
         return stringBuilder.toString();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        CustomArray customArray = (CustomArray) o;
+        return Arrays.equals(this.array,customArray.array) && this.id == customArray.id;
+    }
+
+    @Override
+    public int hashCode(){
+        int result = 7;
+        result = 17 * result + id;
+
+        for(int num : array) {
+            result = result * 17 + num;
+        }
+
+        return result;
+    }
+
+    public static  Builder Builder() {
+        return new CustomArray().new Builder();
+    }
+
+    public class Builder {
+        private int[] array;
+        private int id;
+
+        private Builder() {
+
+        }
+
+        public Builder setId(int id) {
+            CustomArray.this.id = id;
+
+            return this;
+        }
+
+        public Builder setArray(int[] array) {
+            this.array = array.clone();
+            CustomArray.this.array = array.clone();
+
+            return this;
+        }
+
+        public CustomArray build() throws ArrayException {
+            return new CustomArray(array,id);
+        }
+
+
+    }
 }
-// todo hashcode and equals

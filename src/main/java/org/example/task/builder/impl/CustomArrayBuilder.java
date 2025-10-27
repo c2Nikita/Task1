@@ -7,6 +7,7 @@ import org.example.task.exception.ArrayException;
 public class CustomArrayBuilder implements Builder {
 
     private int[] array;
+    private int id;
 
     @Override
     public CustomArrayBuilder setArray(int[] array) {
@@ -14,7 +15,13 @@ public class CustomArrayBuilder implements Builder {
         return this;
     }
 
+    @Override
+    public CustomArrayBuilder setId(int id) {
+        this.id = id;
+        return this;
+    }
+
     public CustomArray build() throws ArrayException {
-        return new CustomArray(array);
+        return new CustomArray(array,id);
     }
 }

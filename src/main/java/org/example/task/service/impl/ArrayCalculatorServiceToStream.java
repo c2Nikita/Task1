@@ -27,7 +27,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
 
     @Override
     public int calculateSum(CustomArray customArray) throws ArrayException {
-        if (customArray == null ) {
+        if (customArray == null) {
             throw new ArrayException("empty array");
         }
 
@@ -40,11 +40,29 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
 
     @Override
     public int calculatePositiveElements(CustomArray customArray) throws ArrayException {
-        return 0;
+        if (customArray == null) {
+            throw new ArrayException("empty array");
+        }
+
+        long sum = Arrays.stream(customArray.getArray())
+                .filter(num -> num > 0)
+                .count();
+
+        logger.info("positive elements: " + sum);
+        return (int) sum;
     }
 
     @Override
     public int calculateNegativeElements(CustomArray customArray) throws ArrayException {
-        return 0;
+        if (customArray == null) {
+            throw new ArrayException("empty array");
+        }
+
+        long sum = Arrays.stream(customArray.getArray())
+                .filter(num -> num < 0)
+                .count();
+
+        logger.info("negative elements: " + sum);
+        return (int) sum;
     }
 }
