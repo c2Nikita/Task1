@@ -21,7 +21,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
                 .average()
                 .orElseThrow(() -> new ArrayException("Array is empty"));
 
-        logger.info("Average value: " + average);
+        logger.info("Average value: {}", average);
         return average;
     }
 
@@ -34,7 +34,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
         int sum = Arrays.stream(customArray.getArray())
                 .sum();
 
-        logger.info("Sum of elements: " + sum);
+        logger.info("Sum of elements: {}", sum);
         return sum;
     }
 
@@ -48,7 +48,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
                 .filter(num -> num > 0)
                 .count();
 
-        logger.info("positive elements: " + sum);
+        logger.info("positive elements: {}",sum);
         return (int) sum;
     }
 
@@ -62,7 +62,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
                 .filter(num -> num < 0)
                 .count();
 
-        logger.info("negative elements: " + sum);
+        logger.info("negative elements: {}", sum);
         return (int) sum;
     }
 }

@@ -22,7 +22,7 @@ public class ArrayCalculatorService implements ArrayCalculator {
             result += num;
         }
 
-        logger.info("Sum of elements: " + result);
+        logger.info("Sum of elements: {}", result);
         return result;
 
     }
@@ -34,7 +34,7 @@ public class ArrayCalculatorService implements ArrayCalculator {
         }
 
         double result = (double) calculateSum(customArray) / customArray.getLenght();
-        logger.info("Average value: " + result);
+        logger.info("Average value: {}", result);
         return result;
 
     }
@@ -53,7 +53,7 @@ public class ArrayCalculatorService implements ArrayCalculator {
             }
         }
 
-        logger.info("Positive elements: " + result);
+        logger.info("Positive elements: {}", result);
         return result;
     }
 
@@ -71,7 +71,7 @@ public class ArrayCalculatorService implements ArrayCalculator {
             }
         }
 
-        logger.info("Negative elements: " + result);
+        logger.info("Negative elements: {}", result);
         return result;
 
     }

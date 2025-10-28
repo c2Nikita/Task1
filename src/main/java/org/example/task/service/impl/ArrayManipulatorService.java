@@ -20,7 +20,7 @@ public class ArrayManipulatorService implements ArrayManipulator {
 
         for (int i = 0; i < customArray.getLenght(); i++) {
             if (condition.test(customArray.getArray()[i])) {
-                logger.info("Replace element " + customArray.getElement(i) + " (index " + i + ") on " + newValue);
+                logger.info("Replace element {}  (index {} ) on {}", customArray.getElement(i), i, newValue);
                 customArray.setElement(i, newValue);
             }
         }

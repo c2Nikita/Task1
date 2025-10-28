@@ -26,7 +26,7 @@ public class ArrayFindService implements ArrayFinder {
             }
         }
 
-        logger.info("Min element in array is " + min);
+        logger.info("Min element in array is {}", min);
         return min;
     }
 
@@ -43,7 +43,7 @@ public class ArrayFindService implements ArrayFinder {
             }
         }
 
-        logger.info("Max element in array is " + max);
+        logger.info("Max element in array is {}", max);
         return max;
     }
 
@@ -55,7 +55,7 @@ public class ArrayFindService implements ArrayFinder {
 
         for (int i = 0; i < customArray.getLenght(); i++) {
             if (customArray.getArray()[i] == num) {
-                logger.info("First index of " + num + " is " + i);
+                logger.info("First index of {} is {}",num, i);
                 return OptionalInt.of(i);
             }
         }
@@ -71,7 +71,7 @@ public class ArrayFindService implements ArrayFinder {
 
         for (int i = customArray.getLenght() - 1; i >= 0; i--) {
             if (customArray.getArray()[i] == num) {
-                logger.info("Last index of " + num + " is " + i);
+                logger.info("Last index of {} is {}",num, i);
                 return OptionalInt.of(i);
             }
         }
