@@ -27,7 +27,7 @@ public class ArrayCalculatorServiceToStream implements ArrayCalculator {
 
     @Override
     public int calculateSum(CustomArray customArray) throws ArrayException {
-        if (customArray == null || customArray.getArray().length < 1) {
+        if (customArray == null) {
             throw new ArrayException("empty array");
         }
 
