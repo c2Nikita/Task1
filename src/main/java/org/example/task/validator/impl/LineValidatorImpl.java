@@ -6,10 +6,9 @@ import org.example.task.validator.LineValidator;
 
 import java.util.regex.Pattern;
 
-public class LineValidatorService implements LineValidator {
+public class LineValidatorImpl implements LineValidator {
 
     public static final Logger logger = LogManager.getLogger();
-    public static final String REGEX_FILE_LINE = "-?\\d+(\\s*[,;-]\\s*-?\\d+)*";
 
     public boolean isLineFromFileValid(String lineFromFile){
         if (lineFromFile == null || lineFromFile.isBlank()){

@@ -6,6 +6,8 @@ import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
 import org.example.task.service.ArrayFinder;
 
+import java.util.OptionalInt;
+
 public class ArrayFindService implements ArrayFinder {
 
     public static final Logger logger = LogManager.getLogger();
@@ -46,7 +48,7 @@ public class ArrayFindService implements ArrayFinder {
     }
 
     @Override
-    public int findFirstIndexOf(CustomArray customArray, int num) throws ArrayException {
+    public OptionalInt findFirstIndexOf(CustomArray customArray, int num) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
         }
@@ -54,15 +56,15 @@ public class ArrayFindService implements ArrayFinder {
         for (int i = 0; i < customArray.getLenght(); i++) {
             if (customArray.getArray()[i] == num) {
                 logger.info("First index of " + num + " is " + i);
-                return i;
+                return OptionalInt.of(i);
             }
         }
 
-        throw new ArrayException("no such element");
+        return OptionalInt.empty();
     }
 
     @Override
-    public int findLastIndexOf(CustomArray customArray, int num) throws ArrayException {
+    public OptionalInt findLastIndexOf(CustomArray customArray, int num) throws ArrayException {
         if (customArray == null) {
             throw new ArrayException("empty array");
         }
@@ -70,10 +72,10 @@ public class ArrayFindService implements ArrayFinder {
         for (int i = customArray.getLenght() - 1; i >= 0; i--) {
             if (customArray.getArray()[i] == num) {
                 logger.info("Last index of " + num + " is " + i);
-                return i;
+                return OptionalInt.of(i);
             }
         }
 
-        throw new ArrayException("no such element");
+        return OptionalInt.empty();
     }
 }

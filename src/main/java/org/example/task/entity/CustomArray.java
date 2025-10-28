@@ -57,19 +57,19 @@ public class CustomArray {
         return array.length;
     }
 
-    public void setElement(int index, int value) throws ArrayException {
+    private void valitadeIndex(int index) throws ArrayException {
         if (index >= array.length || index < 0) {
             throw new ArrayException("array out of bounds");
         }
+    }
 
+    public void setElement(int index, int value) throws ArrayException {
+        valitadeIndex(index);
         array[index] = value;
     }
 
     public int getElement(int index) throws ArrayException {
-        if (index >= array.length || index < 0) {
-            throw new ArrayException("array out of bounds");
-        }
-
+        valitadeIndex(index);
         return array[index];
     }
 
@@ -112,7 +112,7 @@ public class CustomArray {
         return result;
     }
 
-    public static  Builder Builder() {
+    public static  Builder builder() {
         return new CustomArray().new Builder();
     }
 
