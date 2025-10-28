@@ -2,7 +2,6 @@ package org.example.task.service;
 
 import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
-import org.example.task.service.impl.ArrayCalculatorService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

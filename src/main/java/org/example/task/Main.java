@@ -17,6 +17,6 @@ public class Main {
         List<String> list = fileArrayReaderService.readFile("data/file.txt");
         int[] array = fileLineParserService.parseToCustomArrayFromStringList(list);
         System.out.println(Arrays.toString(array));
-         CustomArray customArray = CustomArray.builder().setArray(array).setId(2).build();
+        CustomArray customArray = CustomArray.builder().setArray(array).setId(2).build();
     }
 }

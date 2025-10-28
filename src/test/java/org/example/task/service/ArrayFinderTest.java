@@ -2,7 +2,7 @@ package org.example.task.service;
 
 import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
-import org.example.task.service.impl.ArrayFindService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -29,7 +29,6 @@ public abstract class ArrayFinderTest {
                 Arguments.of(new int[]{0}, 0)
         );
     }
-
 
     @ParameterizedTest
     @MethodSource("provideArrayForFindMin")
