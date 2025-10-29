@@ -5,7 +5,7 @@ import org.example.task.exception.ArrayException;
 import java.util.Arrays;
 
 public class CustomArray {
-
+    private static int nextId = 1;
     private int[] array;
     private int id;
 
@@ -21,10 +21,10 @@ public class CustomArray {
     }
 
     public CustomArray(int[] array) throws ArrayException {
-        if (array == null) {
+        if (array == null || array.length == 0) {
             throw new ArrayException("Bad array for create");
         }
-
+        this.id = nextId;
         this.array = array.clone();
     }
 
@@ -112,28 +112,23 @@ public class CustomArray {
         return result;
     }
 
-    public static  Builder builder() {
-        return new CustomArray().new Builder();
+    public static Builder newBuilder() {
+        return new Builder();
     }
 
-    public class Builder {
+    public static class Builder {
         private int[] array;
         private int id;
 
-        private Builder() {
+        private Builder() {}
 
-        }
-
-        public Builder setId(int id) {
-            CustomArray.this.id = id;
-
+        public Builder setId() {
+            this.id = nextId++;
             return this;
         }
 
         public Builder setArray(int[] array) {
             this.array = array.clone();
-            CustomArray.this.array = array.clone();
-
             return this;
         }
 

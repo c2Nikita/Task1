@@ -13,7 +13,7 @@ public class FileLineParserImpl implements FileLineParser {
     public static final Logger logger = LogManager.getLogger();
 
     @Override
-    public int[] parseToCustomArrayFromStringList(List<String> listReadedFromFile){
+    public int[] parseToCustomArrayFromStringList(List<String> listReadedFromFile) {
         LineValidator lineValidator = new LineValidatorImpl();
         logger.info("Parser start work");
         return listReadedFromFile.stream()
