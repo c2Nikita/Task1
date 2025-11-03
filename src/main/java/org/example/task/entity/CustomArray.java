@@ -1,13 +1,18 @@
 package org.example.task.entity;
 
 import org.example.task.exception.ArrayException;
+import org.example.task.observer.Observable;
+import org.example.task.observer.Observer;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class CustomArray {
+public class CustomArray implements Observable {
     private static int nextId = 1;
     private int[] array;
     private int id;
+    private List<Observer> observers = new ArrayList<>();
 
     private CustomArray() {
 
@@ -110,6 +115,23 @@ public class CustomArray {
         }
 
         return result;
+    }
+
+    @Override
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for(Observer o : observers) {
+            o.update(this);
+        }
     }
 
     public static Builder newBuilder() {

@@ -4,12 +4,13 @@ import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
 import org.example.task.repository.Repository;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RepositoryImpl implements Repository {
     private static RepositoryImpl instance;
 
-    private final HashMap<Integer, CustomArray> arrays = new HashMap<>();
+    private final List<CustomArray> arrays = new ArrayList<>();
 
     private RepositoryImpl() {}
 
@@ -27,7 +28,7 @@ public class RepositoryImpl implements Repository {
             throw new ArrayException("Bad entity to add");
         }
 
-        arrays.put(customArray.getId(),customArray);
+        arrays.add(customArray);
     }
 
     @Override

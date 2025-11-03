@@ -12,4 +12,20 @@ public class ArrayStats {
         this.max = max;
         this.min = min;
     }
+
+    public int getSum() {
+        return sum;
+    }
+
+    public int getMax() {
+        return max;
+    }
+
+    public int getMin() {
+        return min;
+    }
+
+    public double getAvg() {
+        return avg;
+    }
 }
