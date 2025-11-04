@@ -8,6 +8,7 @@ import org.example.task.specification.CustomArraySpecification;
 import org.example.task.warehouse.CustomArrayWareHouse;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class CustomArrayRepository {
@@ -46,6 +47,13 @@ public class CustomArrayRepository {
         CustomArrayWareHouse.getInstance().removeArrayStats(customArray.getId());
         arrays.remove(customArray);
 
+    }
+
+    public List<CustomArray> sort(Comparator<? super CustomArray> comparator) {
+        logger.info("Called a method for sorting arrays");
+        var sorted = new ArrayList<>(arrays);
+        sorted.sort(comparator);
+        return sorted;
     }
 
     public List<CustomArray> query(CustomArraySpecification specification) {

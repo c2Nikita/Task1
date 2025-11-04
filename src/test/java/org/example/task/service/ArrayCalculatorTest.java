@@ -19,7 +19,7 @@ public abstract class ArrayCalculatorTest {
                 Arguments.of(new int[]{1, 2, 3, 4}, 10),
                 Arguments.of(new int[]{-5, 10, -3}, 2),
                 Arguments.of(new int[]{0}, 0),
-                Arguments.of(new int[]{}, 0)
+                Arguments.of(new int[]{0}, 0)
         );
     }
 

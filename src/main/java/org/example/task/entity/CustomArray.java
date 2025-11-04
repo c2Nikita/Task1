@@ -39,7 +39,9 @@ public class CustomArray implements CustomArrayObservable {
     }
     @Override
     public void addObserver(CustomArrayObserver observer) {
-        this.observer = observer;
+        if(observer != null) {
+            this.observer = observer;
+        }
     }
 
     @Override
@@ -61,11 +63,13 @@ public class CustomArray implements CustomArrayObservable {
     public int[] getArray() {
         return array.clone();
     }
-
     public void setArray(int[] array){
         if (array != null) {
             this.array = array.clone();
-            observer.update(this);
+
+            if (observer != null) {
+                observer.update(this);
+            }
         }
 
 
@@ -84,7 +88,9 @@ public class CustomArray implements CustomArrayObservable {
     public void setElement(int index, int value) throws ArrayException {
         valitadeIndex(index);
         array[index] = value;
-        observer.update(this);
+        if (observer != null) {
+            observer.update(this);
+        }
     }
 
     public int getElement(int index) throws ArrayException {
