@@ -1,18 +1,18 @@
 package org.example.task.entity;
 
 import org.example.task.exception.ArrayException;
-import org.example.task.observer.Observable;
-import org.example.task.observer.Observer;
+import org.example.task.observer.CustomArrayObservable;
+import org.example.task.observer.CustomArrayObserver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CustomArray implements Observable {
+public class CustomArray implements CustomArrayObservable {
     private static int nextId = 1;
     private int[] array;
     private int id;
-    private List<Observer> observers = new ArrayList<>();
+    private CustomArrayObserver observer;
 
     private CustomArray() {}
     public CustomArray(int lenght) throws ArrayException {
@@ -40,18 +40,18 @@ public class CustomArray implements Observable {
         this.array = array.clone();
     }
     @Override
-    public void addObserver(Observer observer) {
-        observers.add(observer);
+    public void addObserver(CustomArrayObserver observer) {
+        this.observer = observer;
     }
 
     @Override
-    public void removeObserver(Observer observer) {
-        observers.remove(observer);
+    public void removeObserver(CustomArrayObserver observer) {
+        this.observer = null;
     }
 
     @Override
     public void notifyObservers() {
-        for(Observer observer : observers) {
+        if (observer != null) {
             observer.update(this);
         }
     }
@@ -60,16 +60,17 @@ public class CustomArray implements Observable {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public int[] getArray() {
         return array.clone();
     }
 
     public void setArray(int[] array){
-        this.array = array.clone();
+        if (array != null) {
+            this.array = array.clone();
+            observer.update(this);
+        }
+
+
     }
 
     public int getLenght() {
@@ -85,6 +86,7 @@ public class CustomArray implements Observable {
     public void setElement(int index, int value) throws ArrayException {
         valitadeIndex(index);
         array[index] = value;
+        observer.update(this);
     }
 
     public int getElement(int index) throws ArrayException {
