@@ -3,10 +3,8 @@ package org.example.task.entity;
 import org.example.task.exception.ArrayException;
 import org.example.task.observer.CustomArrayObservable;
 import org.example.task.observer.CustomArrayObserver;
-
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+
 
 public class CustomArray implements CustomArrayObservable {
     private static int nextId = 1;

@@ -51,8 +51,7 @@ public class CustomArrayRepository {
     public List<CustomArray> query(CustomArraySpecification specification) {
         logger.info("Starting query operation with specification: {}",
                 specification != null ? specification.getClass().getSimpleName() : "null");
-        List<CustomArray> list = arrays.stream().filter(specification::specify).toList();
-        return list;
+        return arrays.stream().filter(specification::specify).toList();
     }
 
 
