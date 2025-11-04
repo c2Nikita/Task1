@@ -1,13 +1,41 @@
 package org.example.task.warehouse;
 
-import org.example.task.entity.ArrayStats;
+import org.example.task.stats.ArrayStats;
 import org.example.task.entity.CustomArray;
+import org.example.task.observer.Observer;
 
-public interface WareHouse {
+import java.util.HashMap;
 
-    void update(CustomArray array);
+public class WareHouse implements Observer {
+    private final HashMap<Integer, ArrayStats> stats = new HashMap<>();
+    private static WareHouse instance;
+    private int sum;
+    private int max;
+    private int min;
+    private int avg;
 
-    ArrayStats getStats(int id);
+    private WareHouse() {
 
-    public void remove(int id);
+    }
+
+    public WareHouse getInstance() {
+        if(instance == null){
+            instance = new WareHouse();
+        }
+        return instance;
+    }
+
+    @Override
+    public void update(CustomArray array) {
+
+    }
+
+    public ArrayStats getStats(int id) {
+        return null;
+    }
+
+    public void remove(int id) {
+
+    }
+
 }

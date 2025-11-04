@@ -14,9 +14,7 @@ public class CustomArray implements Observable {
     private int id;
     private List<Observer> observers = new ArrayList<>();
 
-    private CustomArray() {
-
-    }
+    private CustomArray() {}
     public CustomArray(int lenght) throws ArrayException {
         if (lenght <= 0) {
             throw new ArrayException("Bad array lenght");
@@ -40,6 +38,22 @@ public class CustomArray implements Observable {
 
         this.id = id;
         this.array = array.clone();
+    }
+    @Override
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for(Observer observer : observers) {
+            observer.update(this);
+        }
     }
 
     public int getId() {
@@ -115,23 +129,6 @@ public class CustomArray implements Observable {
         }
 
         return result;
-    }
-
-    @Override
-    public void addObserver(Observer observer) {
-        observers.add(observer);
-    }
-
-    @Override
-    public void removeObserver(Observer observer) {
-        observers.remove(observer);
-    }
-
-    @Override
-    public void notifyObservers() {
-        for(Observer o : observers) {
-            o.update(this);
-        }
     }
 
     public static Builder newBuilder() {

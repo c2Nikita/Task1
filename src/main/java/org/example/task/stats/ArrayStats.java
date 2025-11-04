@@ -1,10 +1,10 @@
-package org.example.task.entity;
+package org.example.task.stats;
 
 public class ArrayStats {
-    private final int sum;
-    private final double avg;
-    private  final int max;
-    private final int min;
+    private int sum;
+    private double avg;
+    private int max;
+    private int min;
 
     public ArrayStats(int sum, double avg, int max, int min) {
         this.sum = sum;

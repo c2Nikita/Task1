@@ -6,10 +6,11 @@ import org.example.task.entity.CustomArray;
 import org.example.task.exception.ArrayException;
 import org.example.task.parser.impl.FileLineParserImpl;
 import org.example.task.reader.impl.FileArrayReaderImpl;
-import org.example.task.repository.impl.RepositoryImpl;
+import org.example.task.repository.Repository;
+import org.example.task.specification.impl.ContainsValueSpecification;
+import org.example.task.specification.impl.SumLessThanSpecification;
 
-import java.util.Arrays;
-import java.util.HashMap;
+
 import java.util.List;
 
 import static org.example.task.entity.CustomArray.newBuilder;
@@ -27,11 +28,13 @@ public class Main {
         logger.info(customArray.toString());
         CustomArray customArray1 = newBuilder().setArray(array).setId().build();
 
-        RepositoryImpl repository = RepositoryImpl.getInstance();
+        Repository repository = Repository.getInstance();
 
-        repository.addArray(customArray);
-        repository.addArray(customArray1);
+        repository.add(customArray);
+        repository.add(customArray1);
 
+        List<CustomArray> listik = repository.query(new ContainsValueSpecification(0));
+        System.out.println(listik);
 
     }
 }
